@@ -1,4 +1,8 @@
+/*css */
+
 body {
+	color: $mainblue;
 	padding:1px;
 	color:red;
+	columns: 300px 2;
 }

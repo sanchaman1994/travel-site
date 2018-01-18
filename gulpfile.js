@@ -1,17 +1,25 @@
+
+
 var gulp = require('gulp'),
-watch = require('gulp-watch');
+watch = require('gulp-watch'),
+cssvars = require('postcss-simple-vars'),
+postcss = require('gulp-postcss'),
+autoprefixer = require('autoprefixer');
 
 gulp.task('default', function(){
 	console.log("hello worod");
 });
 
 gulp.task('html', function(){
-	console.log(" html is great... ");
+	console.log(" imagine sometahing useful being done to your html here.. ");
 });
 
 gulp.task('styles', function(){
 	return gulp.src('./app/assets/styles/styles.css')
-	.pipe(gulp.dest('./app/temp/styles'))
+		.pipe(postcss([cssvars,autoprefixer]))
+		.pipe(gulp.dest('./app/temp/styles'));
+
+
 });
 
 //watch function
