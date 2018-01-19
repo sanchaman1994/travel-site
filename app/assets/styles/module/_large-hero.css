@@ -18,8 +18,8 @@ interfaring bem rule that is kool*/
 		margin:0; 
 		font-size:1.1rem;
 
-		@mixin atSmall {
-			font-size: 2rem;
+       @mixin atSmall {
+			font-size: 7rem;
 		}
 
 		@mixin atMedium {
@@ -32,9 +32,9 @@ interfaring bem rule that is kool*/
 	}
 
 	&--subtitle {
-		font-weight: 300;
+		font-weight:300;
 		color:#2f5572;
-		font-size: 1.1rem;
+		font-size: 2.1rem;
 		margin:0;
 
 		@mixin atSmall {
