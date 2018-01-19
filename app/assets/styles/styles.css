@@ -1,8 +1,8 @@
 /*css */
-$mainblue : #2f5572;
-body {
-	color: $mainblue;
-	padding:1px;
-	color:red;
-	columns: 300px 2;
-}
+@import "normalize.css";
+@import "module/_large-hero";
+@import "base/_variable";
+@import "base/_mixins");
+@import "module/_btn";
+@import "base/_global";
+
