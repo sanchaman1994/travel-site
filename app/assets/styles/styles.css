@@ -8,3 +8,10 @@ body {
 	columns: 400px 3;
 	transition: 3s easein;
 }
+
+.box{
+	a {
+		display: block;
+		padding: 10px;
+	}
+}

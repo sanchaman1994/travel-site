@@ -8,3 +8,8 @@ body {
 	-webkit-transition: 3s easein;
 	transition: 3s easein;
 }
+
+.box a {
+		display: block;
+		padding: 10px;
+	}
