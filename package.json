@@ -12,6 +12,8 @@
     "gulp-watch": "4.3.11",
     "postcss-nested": "2.1.2",
     "postcss-simple-vars": "^4.1.0",
-    "postcss-import": "^8.1.2"
+    "postcss-import": "^8.1.2",
+    "postcss-mixins": "^4.0.2",
+    "browser-sync": "^2.12.8"
   }
 }
