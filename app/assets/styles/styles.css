@@ -1,17 +1,11 @@
+@import "normalize.css";
 
-$mainBlue : #fff;
-$mainOrange : #2f5572;
-body {
-	color:$mainBlue;
-	margin: 0;
-	background-color:$mainOrange;
-	columns: 400px 3;
-	transition: 3s easein;
-}
+@import "base/_global";
 
-.box{
-	a {
-		display: block;
-		padding: 10px;
-	}
-}
+@import "base/_variables";
+
+@import "base/_mixins";
+
+@import "modules/_large-hero";
+
+@import "modules/_btn";
